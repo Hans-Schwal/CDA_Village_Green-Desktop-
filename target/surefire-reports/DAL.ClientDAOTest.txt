@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: DAL.ClientDAOTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.909 s <<< FAILURE! - in DAL.ClientDAOTest
+Insert_cas1 on Insert_cas1(DAL.ClientDAOTest)(DAL.ClientDAOTest)  Time elapsed: 4.27 s  <<< FAILURE!
+java.lang.AssertionError: 
+Error in test insert_cas1 Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at DAL.ClientDAOTest.Insert_cas1(ClientDAOTest.java:74)
+
